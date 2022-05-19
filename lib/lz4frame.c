@@ -72,7 +72,7 @@
 #include "lz4.h"
 #define LZ4_HC_STATIC_LINKING_ONLY
 #include "lz4hc.h"
-#define XXH_STATIC_LINKING_ONLY
+#define XXH_INLINE_ALL
 #include "xxhash.h"
 
 
